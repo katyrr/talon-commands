@@ -17,3 +17,4 @@ phones [<user.ordinals>] word right:
     user.words_right(n - 1)
     edit.extend_word_right()
     user.homophones_show_selection()
+

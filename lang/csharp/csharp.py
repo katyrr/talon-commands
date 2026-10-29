@@ -8,7 +8,6 @@ ctx.matches = r"""
 code.language: csharp
 """
 
-
 operators = Operators(
     # code_operators_array
     SUBSCRIPT=create_described_insert_between("[", "]"),

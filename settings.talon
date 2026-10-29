@@ -107,7 +107,7 @@ settings():
     # -width windows are resized to stay full-height/width.
     # user.window_snap_screen = "size aware"
 
-    # Mode enabled on Talon launch (command by default; dictation, mixed or sleep are other options)
+    # Mode enabled on Talon launch (command by default; dictation or sleep are other options)
     # user.initial_mode = "sleep"
 
     # Puts Talon into sleep mode if no commands are spoken for a defined period of time.
@@ -140,7 +140,7 @@ settings():
 # Uncomment the below to enable support for saying numbers without a prefix.
 # By default you need to say "numb one" to write "1". If you uncomment this,
 # you can say "one" to write "1".
-# tag(): user.unprefixed_numbers
+tag(): user.unprefixed_numbers
 
 # Uncomment the below to enable the experimental window layout commands
 # defined in window_layout.talon

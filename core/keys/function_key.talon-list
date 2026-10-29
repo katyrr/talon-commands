@@ -1,18 +1,19 @@
 list: user.function_key
 -
 
-f one: f1
-f two: f2
+brightness down: f1
+brightness up: f2
 f three: f3
 f four: f4
 f five: f5
 f six: f6
-f seven: f7
-f eight: f8
-f nine: f9
-f ten: f10
-f eleven: f11
-f twelve: f12
+rewind: f7
+pause: f8
+play: f8
+fast forward: f9
+volume mute: f10
+volume down: f11
+volume up: f12
 f thirteen: f13
 f fourteen: f14
 f fifteen: f15

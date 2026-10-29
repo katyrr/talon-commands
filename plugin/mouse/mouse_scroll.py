@@ -184,7 +184,7 @@ mod.setting(
     "mouse_continuous_scroll_amount",
     type=int,
     default=8,
-    desc="The default scrolling amount used when scrolling continuously",
+    desc="The default amount used when scrolling continuously",
 )
 mod.setting(
     "mouse_continuous_scroll_acceleration",
@@ -196,13 +196,13 @@ mod.setting(
     "mouse_enable_hiss_scroll",
     type=bool,
     default=False,
-    desc="Hiss noise scrolls down",
+    desc="Hiss noise scrolls down when enabled",
 )
 mod.setting(
     "mouse_hide_mouse_gui",
     type=bool,
     default=False,
-    desc="Do not show the 'Scroll Mouse' GUI",
+    desc="When enabled, the 'Scroll Mouse' GUI will not be shown.",
 )
 
 mod.setting(

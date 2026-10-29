@@ -2,7 +2,7 @@ list: user.special_key
 os: mac
 -
 
-end: end
+go end: end
 home: home
 minus: minus
 return: return
@@ -12,7 +12,13 @@ page up: pageup
 escape: escape
 space: space
 tab: tab
+next: tab
+switch: tab
 insert: insert
 wipe: backspace
 delete: backspace
 forward delete: delete
+eat: delete
+
+
+

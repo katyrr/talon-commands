@@ -8,7 +8,7 @@ settings():
 # tags should be activated for each specific terminal in the respective talon file
 
 lisa [dir] [<user.text>]: user.terminal_list_directories(text or "")
-lisa all: user.terminal_list_all_directories()
+lisall: user.terminal_list_all_directories()
 katie [dir] [<user.text>]: user.terminal_change_directory(text or "")
 katie root: user.terminal_change_directory_root()
 katie (up | back): user.terminal_change_directory("..")
@@ -19,6 +19,8 @@ run last: user.terminal_run_last()
 rerun [<user.text>]: user.terminal_rerun_search(text or "")
 rerun search: user.terminal_rerun_search("")
 kill all: user.terminal_kill_all()
+make direct: "mkdir "
+seedy: "cd "
 
 copy paste:
     edit.copy()

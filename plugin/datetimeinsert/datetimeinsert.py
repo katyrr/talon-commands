@@ -1,4 +1,4 @@
-import datetime as dt
+import datetime
 
 from talon import Module
 
@@ -10,7 +10,7 @@ class Actions:
     def time_format(fmt: str = None) -> str:
         """Return the current time, formatted.
         fmt: strftime()-style format string, defaults to ISO format."""
-        now = dt.datetime.now()
+        now = datetime.datetime.now()
         if fmt is None:
             return now.isoformat()
         return now.strftime(fmt)
@@ -18,7 +18,7 @@ class Actions:
     def time_format_utc(fmt: str = None) -> str:
         """Return the current UTC time, formatted.
         fmt: strftime()-style format string, defaults to ISO format."""
-        now = dt.datetime.utcnow()
+        now = datetime.datetime.utcnow()
         if fmt is None:
             return now.isoformat()
         return now.strftime(fmt)

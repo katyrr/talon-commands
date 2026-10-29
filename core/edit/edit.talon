@@ -24,23 +24,23 @@ scroll down: edit.page_down()
 
 # go left, go left left down, go 5 left 2 down
 # go word left, go 2 words right
-go <user.navigation_step>+: user.perform_navigation_steps(navigation_step_list)
+(go | move) <user.navigation_step>+: user.perform_navigation_steps(navigation_step_list)
 
-go line start | head: edit.line_start()
-go line end | tail: edit.line_end()
+(go | move) line start | (go | move) head: edit.line_start()
+(go | move) line end | (go | move) tail: edit.line_end()	
 
-go way left:
+(go | move) far left:
     edit.line_start()
     edit.line_start()
-go way right: edit.line_end()
-go way up: edit.file_start()
-go way down: edit.file_end()
+(go | move) far right: edit.line_end()
+(go | move) far up: edit.file_start()
+(go | move) far down: edit.file_end()
 
-go top: edit.file_start()
-go bottom: edit.file_end()
+(go | move) top: edit.file_start()
+(go | move) bottom: edit.file_end()
 
-go page up: edit.page_up()
-go page down: edit.page_down()
+(go | move) page up: edit.page_up()
+(go | move) page down: edit.page_down()
 
 # Indentation
 indent [more]: edit.indent_more()
@@ -50,10 +50,10 @@ indent less | out dent: edit.indent_less()
 copy that: edit.copy()
 
 # Cut
-cut that: edit.cut()
+# cut that: edit.cut()
 
 # Paste
-(pace | paste) (that | it): edit.paste()
+(pace | paste) that: edit.paste()
 (pace | paste) enter:
     edit.paste()
     key(enter)
@@ -65,11 +65,12 @@ clone line: edit.line_clone()
 
 # Insert new line
 new line above: edit.line_insert_up()
-new line below | slap: edit.line_insert_down()
+new line below: edit.line_insert_down()
+
 
 # Insert padding with optional symbols
-padding: user.insert_between(" ", " ")
-(pad | padding) <user.symbol_key>+:
+# padding: user.insert_between(" ", " ")
+pad <user.symbol_key>+:
     insert(" ")
     user.insert_many(symbol_key_list)
     insert(" ")

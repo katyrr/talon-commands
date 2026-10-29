@@ -1,12 +1,14 @@
 new line: "\n"
 double dash: "--"
 triple quote: "'''"
-triple grave | triple back tick | gravy: "```"
+link: "_"
+triple grave | triple back tick: "```"
 dot dot | dotdot: ".."
+dot dot dot | trail: "..."
 ellipsis: "..."
-comma and | spamma: ", "
+comma and | com space: ", "
 arrow: "->"
-dub arrow: "=>"
+# dub arrow: "=>"
 
 # Insert delimiter pairs
 <user.delimiter_pair>: user.delimiter_pair_insert(delimiter_pair)

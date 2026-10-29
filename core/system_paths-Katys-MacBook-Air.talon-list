@@ -1,0 +1,16 @@
+list: user.system_paths
+hostname: Katys-MacBook-Air
+-
+user: /Users/katyrr
+desktop: /Users/katyrr/Desktop
+desk: /Users/katyrr/Desktop
+documents: /Users/katyrr/Documents
+docks: /Users/katyrr/Documents
+downloads: /Users/katyrr/Downloads
+music: /Users/katyrr/Music
+pictures: /Users/katyrr/Pictures
+videos: /Users/katyrr/Videos
+talon home: /Users/katyrr/.talon
+talon recordings: /Users/katyrr/.talon/recordings
+talon user: /Users/katyrr/.talon/user
+home: /Users/katyrr

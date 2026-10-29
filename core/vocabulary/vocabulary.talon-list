@@ -1,12 +1,62 @@
 list: user.vocabulary
 -
-
+# default
 N map: nmap
 under documented: under-documented
 nmap
 admin
-Cisco
-Citrix
 VPN
 DNS
-Minecraft
+
+# personal
+Katy
+Robson
+Sainsburys
+Nisa
+CBT
+
+# general
+EG: "e.g. "
+IE: "i.e. "
+
+
+# command line
+git status
+git add: git add .
+git reset
+git log: git log --oneline
+git commit: git commit -m "
+git pull overleaf: git pull overleaf main
+git pull origin: git pull origin main
+git push overleaf: git push overleaf main
+git push origin: git push origin main
+
+# latex
+frack: \frac
+squirt: \sqrt
+alpha: \alpha
+beta: \beta
+sigma: \sigma
+theta: \theta
+feta: \theta
+gamma: \gamma
+lambda: \lambda
+pi: \pi
+math cal: \mathcal
+text: \text
+space out: \space
+
+# uni
+Seb
+UV
+GPE
+KE
+s child: Schwarzschild
+RM
+bay statistics: Bayesian statistics
+bay theorem: Bayes theorem
+AGN
+BLR
+NLR
+broad line region: BLR
+virial 

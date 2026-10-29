@@ -13,13 +13,15 @@ round: ( )
 box: [ ]
 diamond: < >
 curly: { }
-twin: "' '"
-quad: '" "'
-skis: ` `
-percentages: % %
-pad: space space
+pair singles: "' '"
+pair doubles: '" "'
+pair back tics | pair graves: ` `
+pair percents: % %
+pad out: space space
 
-escaped quad: '\\" \\"'
-escaped twin: "\\' \\'"
-escaped round: \( \)
-escaped box: \[ \]
+real doubles: '\\" \\"'
+real singles: "\\' \\'"
+real round: \( \)
+real box: \[ \]
+real curly: \{ \}
+

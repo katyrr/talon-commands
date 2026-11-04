@@ -17,6 +17,7 @@ CBT
 
 # general
 EG: "e.g. "
+Hi there: Hi there,
 IE: "i.e. "
 
 
@@ -45,6 +46,7 @@ pi: \pi
 math cal: \mathcal
 text: \text
 space out: \space
+text width
 
 # uni
 Seb
@@ -60,3 +62,16 @@ BLR
 NLR
 broad line region: BLR
 virial 
+me average: mean
+
+# coding
+de string: docstring
+tuple
+era bar: error bar
+araba: error bar
+si pi: scipy.
+PLT: plt.
+stud of: stdv
+num py: np.
+jan from text: genfromtxt
+

@@ -4,8 +4,8 @@ list: user.letter
 # for common alternative spoken forms for letters, visit
 # https://talon.wiki/Resource%20Hub/Speech%20Recognition/improving_recognition_accuracy#collected-alternatives-to-the-default-alphabet
 apple: a
-air: ä
-autumn: å
+#air: ä
+#autumn: å
 basic: b
 cable: c
 dusty: d
@@ -20,18 +20,15 @@ look: l
 made: m
 nose: n
 office: o
-over: ö
-panda: p
+#over: ö
+proper: p
 quench: q
 ready: r
 school: s
-trap: t
+tiny: t
 unit: u
 visit: v
 winter: w
 axis: x
 yard: y
 zodiac: z
-brash: \
-
- 

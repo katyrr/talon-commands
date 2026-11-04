@@ -3,6 +3,7 @@ list: user.top_level_domain
 
 dot co dot UK: .co.uk
 dot a c dot UK: .ac.uk
+so ton dot a c dot uk: soton.ac.uk
 dot com: .com
 dot e d u: .edu
 dot education: .edu

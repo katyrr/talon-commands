@@ -53,8 +53,8 @@ copy that: edit.copy()
 # cut that: edit.cut()
 
 # Paste
-(pace | paste) that: edit.paste()
-(pace | paste) enter:
+paste that: edit.paste()
+paste enter:
     edit.paste()
     key(enter)
 paste match: edit.paste_match_style()

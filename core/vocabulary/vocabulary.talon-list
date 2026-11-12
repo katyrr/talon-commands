@@ -19,6 +19,9 @@ CBT
 EG: "e.g. "
 Hi there: Hi there,
 IE: "i.e. "
+see also: see
+duty to: due to
+num
 
 
 # command line
@@ -46,12 +49,15 @@ pi: \pi
 math cal: \mathcal
 text: \text
 space out: \space
+bash a proxy: \approx
 text width
+ki squared: \chi^2
 
 # uni
 Seb
 UV
 GPE
+heavy weighted: weighted
 KE
 s child: Schwarzschild
 RM
@@ -63,6 +69,8 @@ NLR
 broad line region: BLR
 virial 
 me average: mean
+safer galaxy: Seyfert galaxy
+safer galaxies: Seyfert galaxies
 
 # coding
 de string: docstring
@@ -73,5 +81,7 @@ si pi: scipy.
 PLT: plt.
 stud of: stdv
 num py: np.
+long num py: numpy
 jan from text: genfromtxt
+numpy some: np.sum
 

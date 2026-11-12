@@ -13,14 +13,15 @@ round: ( )
 box: [ ]
 diamond: < >
 curly: { }
-pair singles: "' '"
-pair doubles: '" "'
-pair back tics | pair graves: ` `
-pair percents: % %
+post pair: "' '"
+double pair: '" "'
+grave pair: ` `
+percent pair: % %
+dollar pair: $ $
 pad out: space space
 
-real doubles: '\\" \\"'
-real singles: "\\' \\'"
+real double pair: '\\" \\"'
+real post pair: "\\' \\'"
 real round: \( \)
 real box: \[ \]
 real curly: \{ \}

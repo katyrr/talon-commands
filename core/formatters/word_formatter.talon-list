@@ -2,10 +2,13 @@ list: user.word_formatter
 -
 
 word: NOOP
+continue: LEADING_SPACE
 trot: TRAILING_SPACE
 proud: CAPITALIZE_FIRST_WORD
 leap: TRAILING_SPACE,CAPITALIZE_FIRST_WORD
 shout: ALL_CAPS
+gallop: TRAILING_SPACE,ALL_CAPS
+
 
 
 
